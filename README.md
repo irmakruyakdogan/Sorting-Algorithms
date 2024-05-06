@@ -4,9 +4,9 @@
 
 
 
-## Insertion Sort and Selection Sort
+## Insertion Sort-Selection Sort-Merge Sort-Binary Search Tree
 
- I'm explaining how an example is done for Insertion Sort and Selection Sort.
+ I'm explaining how an example is done for Insertion Sort, Selection Sort and Binary Search Tree.
 
 
 ## Insertion Sort
@@ -36,6 +36,17 @@ The time complexity of this algorithm is O(n^2), meaning its performance signifi
 2.)Place the found smallest or largest element at the end of the sorted portion of the array, or place the largest element at the beginning of the sorted portion.
 
 3.)Repeat the process until all elements are sorted, iterating through the entire array.
+
+## Merge Sort
+The algorithm adopts the 'divide and conquer' approach. It divides an array into two halves, sorts each half separately, and then merges the sorted halves to form the resulting array. The main advantage of Merge Sort is that it always has a time complexity of O(n log n), meaning it shows efficient performance depending on the size of the array to be sorted. The main steps of Merge Sort are as follows:
+
+1.) Divide: We split the array to be sorted into two halves, typically by considering the middle element of the array.
+
+2.) Conquer: We recursively sort each of the two halves (left and right).
+
+3.) Merge: We merge the sorted halves to form the resulting array. In this step, we compare elements from both halves, take the smaller one, and merge them. When one half runs out of elements, we directly add the remaining elements of the other half to the resulting array.
+
+The main advantage of Merge Sort is that it always has a time complexity of O(n log n), meaning it shows efficient performance depending on the size of the array to be sorted.
 
 ## Example
 ![Example](odev_yeni.jpg)
