@@ -50,3 +50,6 @@ The main advantage of Merge Sort is that it always has a time complexity of O(n 
 
 ## Example
 ![Example](odev_yeni.jpg)
+
+## Example 2
+![Example2](odev_yeni2.jpg)
