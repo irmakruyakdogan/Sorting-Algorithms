@@ -48,8 +48,22 @@ The algorithm adopts the 'divide and conquer' approach. It divides an array into
 
 The main advantage of Merge Sort is that it always has a time complexity of O(n log n), meaning it shows efficient performance depending on the size of the array to be sorted.
 
+## Binary Search Tree
+Binary Search Tree (BST) is a tree data structure where each node has at most two children. In a BST, each node carries a key value smaller than all the nodes in its left subtree and larger than all the nodes in its right subtree. This property makes BST effective for search, insertion, and deletion operations.
+The fundamental features of BST are as follows:
+
+1.) Sorting: In BST, nodes can be sorted by traversing them in inorder (left-root-right) traversal since for any node, all nodes in its left subtree are smaller and all nodes in its right subtree are larger.
+
+2.) Insertion and Deletion: When adding a new node or deleting a node, BST rearranges nodes in a sorted manner to maintain the structure of the tree. This makes insertion and deletion fast and efficient.
+
+3.) Search: BST can quickly find a searched item by eliminating half of the tree at each step. This provides an average-case search time complexity of O(log n)
+
 ## Example
 ![Example](odev_yeni.jpg)
 
 ## Example 2
 ![Example2](odev_yeni2.jpg)
+
+## Example 3
+![Example3](odev_yeni3.jpg)
+
