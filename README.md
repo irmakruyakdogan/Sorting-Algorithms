@@ -65,5 +65,5 @@ The fundamental features of BST are as follows:
 ![Example2](odev_yeni2.jpg)
 
 ## Example 3
-![Example3](odev_yeni3.jpg)
+![Example3](son_odev.jpg)
 
